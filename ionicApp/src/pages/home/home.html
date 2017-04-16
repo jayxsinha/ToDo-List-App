@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Devdactic Rapid Todos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <!-- The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p> -->
+  <ion-list>
+    <ion-item-sliding *ngFor="let todo of todos | async">
+      <ion-item>
+        {{todo.text}}
+      </ion-item>
+      <ion-item-options side="right" >
+        <button ion-button color="danger" (click)="removeTodo(todo._id)">
+          <ion-icon name="trash"></ion-icon>
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+  <ion-fab right bottom>
+    <button ion-fab (click)="addTodo()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+</ion-content>
