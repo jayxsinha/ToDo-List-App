@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Workspaces\Node\ionicApp\ionicApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a66f9b56c06851a77956c300f1bbf2c9b4b48ac">
+        <dex dex="E:\Workspaces\Node\ionicApp\ionicApp\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_34ad1e14a4aeba7ce4fcfdc00284f6754fe91c5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Workspaces\Node\ionicApp\ionicApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afe8eb4906b94df000e2b3714c864ec42d4e4ea6">
+        <dex dex="E:\Workspaces\Node\ionicApp\ionicApp\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_55dca1bf59400250422d8dec06fd544de4ecb3d2.jar" />
+    </item>
+
+</items>

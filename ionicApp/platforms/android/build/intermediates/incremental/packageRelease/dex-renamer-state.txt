@@ -1,0 +1,4 @@
+#Sun Apr 16 21:45:07 IST 2017
+base.0=E\:\\Workspaces\\Node\\ionicApp\\ionicApp\\platforms\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\Workspaces\\Node\\ionicApp\\ionicApp\\platforms\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex
